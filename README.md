@@ -224,5 +224,3 @@ Get a free API key at [the-one-api.dev](https://the-one-api.dev), then:
 cd lotr-sdk
 LOTR_API_KEY=<your-api-key> python examples/demo.py
 ```
-
-Get a free API key at [the-one-api.dev](https://the-one-api.dev).

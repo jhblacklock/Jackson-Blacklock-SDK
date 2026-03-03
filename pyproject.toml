@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lotr-sdk"
+version = "1.0.0"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov", "responses>=0.25"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

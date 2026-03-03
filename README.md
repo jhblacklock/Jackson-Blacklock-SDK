@@ -2,6 +2,10 @@
 
 A production-ready Python SDK for the [Lord of the Rings API](https://the-one-api.dev).
 
+## Example App
+
+[**The One Quiz**](https://github.com/jhblacklock/The-One-Quiz) — a terminal-based LOTR quote trivia game built with this SDK.
+
 ## Installation
 
 ```bash
